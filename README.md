@@ -163,9 +163,28 @@ photo-diorama-poster/
 │   ├── patch_watermark.js         # 抹平台水印
 │   └── patch_rule.js              # 抹标题下偶发装饰横线
 ├── examples/                      # 5 张成品示例 + 拼图
+├── manifest.yaml                  # SkillHub 上架元数据
+├── icon.png                       # 512×512 图标
 ├── README.md
 └── LICENSE
 ```
+
+## 上架到 WorkBuddy 技能市场（SkillHub）
+
+本仓库已按 WorkBuddy 内置技能市场 SkillHub（代码层名 BuiltinMarket）的上架规范备齐必需文件，可直接导入：
+
+- `manifest.yaml` — 技能元数据（name / slug / version / description / author / category / tags / triggers / license / icon / permissions）
+- `icon.png` — 512×512 图标
+- `SKILL.md` / `README.md` / `LICENSE` — 位于**仓库根**，SkillHub 可直接读取
+
+上架步骤：
+
+1. 用 GitHub 账号登录 SkillHub，绑定 / 授权读取本仓库
+2. 在「发布技能」里选择 **GitHub 导入**，选中 `photo-diorama-poster` 仓库（自动读取根目录的 `manifest.yaml` / `SKILL.md` / `icon.png`）
+3. 按 manifest 填写表单（名称 / slug / 版本 / 分类 / 触发词 / 简介），提交审核
+4. 审核通过（一般 1–3 个工作日，主要是安全扫描）后即上架，其他用户在 WorkBuddy 客户端即可搜索安装
+
+> 只要是公开仓库 + 根目录含 `manifest.yaml`，SkillHub 就能直接导入；后续更新只需 `git push` 到本仓库再重新同步，无需传 zip。
 
 ## 依赖
 

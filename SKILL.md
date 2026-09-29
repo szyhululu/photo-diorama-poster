@@ -1,5 +1,6 @@
 ---
 name: photo-diorama-poster
+version: 1.0.0
 description: 把一张照片做成「上下 1:1 分区」的高级编辑风海报——上半区保留原照片（仅做杂志级调色），下半区重构为极简等距（isometric）微缩实体模型：原图那块地形切片安放在一块很薄的层叠纸板上，哑光材质、近白影棚背景、柔和接触阴影，配色完全取自原图，并配一个克制的英文标题与微型注释。触发词：等距插画海报、上下分区海报、照片转插画、微缩模型感、diorama、沙盘、纸上模型、杂志感海报、编辑插画、isometric poster、photo to isometric illustration、half photo half illustration、diorama poster。不依赖任何外部 API 或指定图像工具，任何具备文生图或图生图能力的 Agent 均可使用。
 agent_created: true
 ---

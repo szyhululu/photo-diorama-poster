@@ -1,0 +1,33 @@
+name: photo-diorama-poster
+slug: photo-diorama-poster
+version: 1.0.0
+description: 把一张照片转成 3:4 竖版、上下 1:1 分区的编辑风海报：上半区保留原照片（仅做杂志级调色），下半区将照片中的地形切片重建为哑光实体微缩模型（薄层叠纸板基座 + 纸页纹理侧面 + 近白影棚背景），配色取自原图，并配一个克制的英文标题与微型注释。提示词零 API 依赖，支持 WorkBuddy / 豆包 / Codex / ChatGPT / Claude 等任意具备文生图或图生图能力的 Agent。含去水印、去标题下装饰线的后处理脚本。
+author: Song Ziyue（宋子月）
+category: 设计
+tags:
+  - 海报
+  - 照片编辑
+  - 等距插画
+  - 微缩模型
+  - diorama
+  - 图像生成
+  - 设计素材
+triggers:
+  - 等距插画海报
+  - 上下分区海报
+  - 照片转插画
+  - 微缩模型感
+  - diorama
+  - 沙盘
+  - 纸上模型
+  - 杂志感海报
+  - 编辑插画
+  - isometric poster
+  - photo to isometric illustration
+  - half photo half illustration
+  - diorama poster
+license: MIT
+homepage: https://github.com/szyhululu/photo-diorama-poster
+icon: icon.png
+permissions:
+  - 图像生成（文生图 / 图生图）
