@@ -1,0 +1,45 @@
+Compose the image as a {{ASPECT}} layout, split into two regions {{AXIS}} with a strict 50/50 {{DIM}} division.
+
+[{{UP}} · ORIGINAL PHOTOGRAPH]
+Preserve the original photograph exactly: the subject's structure, real texture, natural light and the original colour atmosphere must remain unchanged.
+Apply only a subtle, high-end photographic grade so that it reads like an art magazine, an independent publication or an exhibition print.
+The sky, ground or surrounding environment may be extended naturally to fit the frame; never stretch, distort or alter the subject.
+
+[{{DOWN}} · MINIATURE ISOMETRIC MODEL]
+Cut the single most recognisable piece out of the photograph and rebuild it as a refined isometric miniature physical model — like a three-dimensional diorama presented on paper, or a slice of landscape cut away and held up.
+Render strictly in 30° isometric projection: every volume must reveal its top face and two side faces, with clear mass and depth; flat head-on elevation views are forbidden.
+It must read as a matte, physically built scale model: even soft studio light, real volume, a soft and contained contact shadow; matte surfaces with no plastic sheen and no specular highlight.
+It must not be a flat vector illustration (no outlined flat-colour style), and it must not be a direct copy of the photograph (no lens blur, no depth of field, no vignette, no photographic grain). The two regions must be two clearly different media.
+Do not mechanically copy details; re-express the subject through abstracted volumes, crisp edges, simple layers and miniature spatial relationships.
+Keep the identity instantly recognisable, with a quiet, restrained, poetic editorial quality.
+
+[COMPOSITION LOGIC · ISOMETRIC MINIATURE · PAPER MODEL FEELING]
+The piece of ground is cut cleanly out of the photograph and placed on a very thin stack of layered card: the slab's top face is that terrain, keeping the original hill contours, grass, trees and the relative positions of the subjects; the slab's edges reveal layer upon layer of paper-like laminations; the slab is thin and reads as an isometric rectangle.
+Beneath the slab there is only a soft, contained contact shadow hugging its outline — never diffuse, never exaggerated.
+The backdrop is a clean near-white paper tone with virtually no visible texture; generous white space surrounds the slab.
+Build a sense of scale and solitude through volume contrast, edge cropping and a few tiny details.
+A very small number of supporting elements may hold up the subject, but they must never create a second focal point.
+
+[COLOUR]
+Colour is taken entirely from the photograph above, keeping the most identifiable hues that define the subject's character.
+Reduce, purify, soften and unify the complex colours into a limited palette, preserving the original warm/cool relationships and colour personality while removing noise.
+Colours should feel calm, restrained and soft, with a printed editorial quality; distinguish volumes with tints and shades of the same hue, analogous relationships and small value shifts. Never introduce a fixed colour scheme unrelated to the original image.
+Express structure and depth with soft matte colour fields, restrained tonal steps, subtle shadow and fine paper grain — never with ink outlines.
+
+[TYPOGRAPHY]
+Typography enters the composition as part of the layout: derive a short English title from the photograph's subject, place, action, state or mood. The title is fixed as "{{TITLE}}"{{NOTES_SENTENCE_EN}}.
+Use a thin, restrained, modern editorial serif face (light modern serif), the title in sentence case with a capital initial, slightly loose letter spacing.
+Place the title and its numbering in the white space of the {{DOWN}}, {{EDGE_EN}}; they must sit on the same baseline on one single line, separated by a clearly wide horizontal gap so that they form one deliberately spread typographic unit — the number must never wrap onto a line below the title.
+No underline, decorative rule, border or colour-block backing may sit beneath the title or the numbering.
+The title and its numbering must sit entirely within the near-white backdrop of the {{DOWN}}, leaving a clear gap (at least half the title's cap height) below the lower edge of the photographic region; never place any colour block, white backing panel, mask or translucent scrim over the photographic region.
+Text may also sit along the white-space margins, the slab, the axis or the isometric structure, so that text and image together create a quiet, refined typographic rhythm.
+
+[OVERALL CHARACTER]
+Reference isometric miniature models, paper landscapes and high-end editorial design.
+Deliver a quiet, poetic, restrained, refined and collectible visual character.
+
+{{SUBJECT_BLOCK_EN}}{{PALETTE_BLOCK_EN}}[STRICTLY AVOID]
+Cartoon look, flat vector illustration look, high-saturation clashing colours, fixed palettes unrelated to the original photograph, plastic 3D look, cluttered scenes, e-commerce styling and template feel;
+the model region must not invent subjects, brand marks, props or people absent from the photograph;
+no watermark, hard border, sticker outline or obvious jigsaw-style dividing line.
+{{EXTRA_BLOCK_EN}}
