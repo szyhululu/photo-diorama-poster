@@ -105,7 +105,7 @@ NODE_PATH=<sharp 所在 node_modules> node scripts/patch_rule.js --in 生成图.
 对照 `references/guide.md` 第六节自检清单检查成品。不达标时**只改一条约束再重生成**，不要一次性堆叠多条修改。常见症状与对策见 `references/guide.md` 第五节。
 
 ### 第 7 步 · 交付
-成品图存到工作目录，用宿主提供的文件展示能力交给用户（WorkBuddy 用 `present_files`），并附上本次使用的标题与色盘，便于用户复用或批量生产同系列。
+成品图存到工作目录，用宿主提供的文件展示能力交给用户（如 WorkBuddy 的 `present_files`；对话型平台直接贴图即可），并附上本次使用的标题与色盘，便于用户复用或批量生产同系列。
 
 ## 资源
 
@@ -116,6 +116,8 @@ NODE_PATH=<sharp 所在 node_modules> node scripts/patch_rule.js --in 生成图.
 - `scripts/compose_halves.js` — 合成脚本（需 Node + sharp）：自动扫描原图把上区裁切对准主体、抹掉生成图水印、拼接成严格 3:4 / 两区 1:1
 - `scripts/patch_watermark.js` — 水印抹除脚本（需 Node + sharp），路线 A 与 B 共用。取水印左右两侧竖列做横向插值并补回纸张颗粒，纯净底上肉眼不可见
 - `scripts/patch_rule.js` — 装饰横线抹除脚本（需 Node + sharp）。自动定位标题下方的下划线/分隔线并重建背景，支持 `--detect` 只检测、`--y0/--y1/--x0/--x1` 手工指定。判据与坑位见 `references/guide.md` 第七·2 节
+
+> `scripts/*.js` **全部是可选的后处理**：仅在宿主能运行 Node（WorkBuddy / Codex / 本地终端）时用于本地修补与合成。豆包、ChatGPT 等纯对话平台直接用 `references/prompt-zh.txt` / `prompt-en.txt` 里的提示词即可，跳过脚本。
 
 ## 硬性约束（任何情况下不得违反）
 
